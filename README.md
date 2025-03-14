@@ -19,44 +19,52 @@
 8. 練習Markdown語法（可選）
 
 # Markdown語法練習區⬇️⬇️⬇️
-# H1標題
-## H2標題
-### H3標題
-### H4標題
+# H1 標題
+## H2 標題
+### H3 標題
+#### H4 標題
 
-**粗體**
-*斜體*
+**這是粗體**
+
+*這是斜體*
+
 - 第一項
 - 第二項
   - 子項
   - 子項
-`這是程式`
 
-``` python
-# 這是PYTHON程式碼
-print("Hello world")
+1. 第一項
+2. 第二項
+   1. 子項
+   2. 子項
+   
+`這是一行程式碼`
+
+```python
+# 這是Python程式碼區塊
+print("Hello, World!")
 ```
+
 ```mermaid
 mindmap
-  root ((網頁前端
-         程式設計))
+  root (( 網頁前端
+          程式設計 ))
     HTML
       靜態網頁
       語義化標記
       結構化內容
-
     CSS
       佈局與排版
       框架
-        CSS預處理器(Sass,Less)
-        Bootstrap響應式設計 
+        CSS 預處理器 (Sass,Less)
+        Bootstrap 響應式設計
 
-    UI/UX介面設計
+    UI/UX 介面設計
       Figma
-      
+
     JavaScript
       語言特性
-        DOM操作
+        DOM 操作
         非同步編譯 (Promises, async/await)
       框架與函式庫
         jQuery
@@ -65,18 +73,22 @@ mindmap
       Git
       Github
 ```
-![image](https://github.com/user-attachments/assets/59dbd9fc-c1ce-4b18-b531-5e7a6576ced3)
 
 $$
-E=mc^2
+E = mc^2
 $$
-[Github](https://xianglibra.github.io/git_practice/)
-![這是圖片](https://picsum.photos/200/30sdsds0)
+
+[GitHub](https://github.com/)
+
+![替代文字](https://picsum.photos/200/300)
 
 > 這是一個引用
+
 ---
 
-| 表頭一 |表投二 |
+區隔過後
+
+| 表頭1 | 表頭2 |
 | ----- | ----- |
 | 單元格1 | 單元格2 |
 | 單元格3 | 單元格4 |
